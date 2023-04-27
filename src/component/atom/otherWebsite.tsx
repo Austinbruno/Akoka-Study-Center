@@ -6,7 +6,7 @@ const OtherWebsite = () => {
     { img: "/assets/images/OpusDei.png", text: "Opus Dei" }
 ];
   return (
-    <div className="pl-[20px] mb-[90px]">
+    <div className="pl-[20px] mb-[90px] ml-[80px]">
       <h1 className="font-Inter font-[700] text-[34px] text-center mb-[42px] text-[#344054]">
         Other Websites
       </h1>
