@@ -20,7 +20,7 @@ const ResourceLinks = () => {
       },
     ];
   return (
-    <div className="pl-[20px] mb-[40px]">
+    <div className="pl-[20px] mb-[40px] ml-[80px]">
       <h1 className="font-Inter font-[700] text-[34px] text-center mb-[42px] text-[#344054]">
         Resource Links
       </h1>
