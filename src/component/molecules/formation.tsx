@@ -18,7 +18,6 @@ const Formation = () => {
         </h1>
       </div>
       <div className="pr-[155px] mb-[90px]">
-
         <div
           id="default-carousel"
           className=" relative w-full mb-[90px] ml-[195px] "
@@ -29,19 +28,20 @@ const Formation = () => {
               return (
                 <div
                   key={index}
-                  className="hidden duration-700 ease-in-out"
+                  className="hidden duration-700  ease-in-out"
                   data-carousel-item
                 >
                   <Image
                     src={formation}
-                    width={1050}
-                    height={480}
-                    className="absolute block  w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                     alt="..."
+                    width={1200}
+                    height={400}
+                    className=" w-full  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                   />
                 </div>
               );
             })}
+
             <div className="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
               <button
                 type="button"
@@ -79,7 +79,6 @@ const Formation = () => {
                 data-carousel-slide-to="4"
               ></button>
             </div>
-
             <button
               type="button"
               className="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
@@ -95,7 +94,7 @@ const Formation = () => {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    stroke-linecap="round"
+                    strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth="2"
                     d="M15 19l-7-7 7-7"
