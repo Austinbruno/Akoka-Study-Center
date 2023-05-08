@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 const Formation = () => {
   const formationImg = [
@@ -11,32 +11,33 @@ const Formation = () => {
   ];
 
   return (
-    <div>
+    <div className="w-[1200px] mx-auto">
       <div className="mt-[64px] mb-[72px]">
         <h1 className="text-[65px] text-justify w-[770px] font-Inter font-[700] leading-[70px] m-auto text-[#344054]">
           Formation in Morals and Virtues for Young Men
         </h1>
       </div>
-      <div className="pr-[155px] mb-[90px]">
+
+      <div className=" mb-[90px]">
         <div
           id="default-carousel"
-          className=" relative w-full mb-[90px] ml-[195px] "
+          className=" relative mb-[90px] "
           data-carousel="slide"
         >
-          <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
+          <div className="relative h-[500px] overflow-hidden rounded-lg md:h-96">
             {formationImg.map((formation, index) => {
               return (
                 <div
                   key={index}
-                  className="hidden duration-700  ease-in-out"
+                  className="hidden duration-700 ease-in-out"
                   data-carousel-item
                 >
                   <Image
                     src={formation}
                     alt="..."
                     width={1200}
-                    height={400}
-                    className=" w-full  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                    height={0}
+                    objectFit="cover"
                   />
                 </div>
               );
@@ -79,6 +80,7 @@ const Formation = () => {
                 data-carousel-slide-to="4"
               ></button>
             </div>
+
             <button
               type="button"
               className="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
@@ -103,6 +105,7 @@ const Formation = () => {
                 <span className="sr-only">Previous</span>
               </span>
             </button>
+
             <button
               type="button"
               className="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
