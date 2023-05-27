@@ -17,7 +17,7 @@ const NavLink = () => {
     {
       title: "Programs",
       href: "/programs",
-    },
+    },   
     {
       title: "About",
       href: "/about",

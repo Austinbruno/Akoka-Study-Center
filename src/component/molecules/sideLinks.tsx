@@ -19,7 +19,7 @@ const SideLinks = () => {
         <Link
           key={index}
           href={link.href}
-          className="p-[10px_12px] mr-[17px] bg-[#FFF] shadow-md  rounded-[5px]"
+          className="p-[10px_12px] mr-[30px] bg-[#FFF] shadow-md  rounded-[5px]"
          
         >
           {link.title}
