@@ -3,7 +3,7 @@ import Image from 'next/legacy/image'
 const Mission = () => {
 const missionImg = "/assets/images/AboutUs.png"
   return (
-    <div className="flex justify-center mb-[90px] ml-[40px]">
+    <div className="flex justify-center mb-[90px] ">
       <div>
         <Image
           src={missionImg}

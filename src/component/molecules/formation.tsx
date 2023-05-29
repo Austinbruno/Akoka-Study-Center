@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import Image from "next/image";
 
 const Formation = () => {
@@ -9,6 +9,8 @@ const Formation = () => {
     "/assets/images/Landing.svg",
     "/assets/images/Landing.svg",
   ];
+ 
+
 
   return (
     <div className="w-[1200px] mx-auto">
@@ -18,7 +20,7 @@ const Formation = () => {
         </h1>
       </div>
 
-      <div className=" mb-[90px]">
+    { <div className=" mb-[90px]">
         <div
           id="default-carousel"
           className=" relative mb-[90px] "
@@ -26,6 +28,7 @@ const Formation = () => {
         >
           <div className="relative h-[500px] overflow-hidden rounded-lg md:h-96">
             {formationImg.map((formation, index) => {
+              console.log('formation:', formation)
               return (
                 <div
                   key={index}
@@ -33,11 +36,12 @@ const Formation = () => {
                   data-carousel-item
                 >
                   <Image
+                    className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                     src={formation}
                     alt="..."
                     width={1200}
-                    height={0}
-                    objectFit="cover"
+                     height={400}
+                   // objectFit="cover"
                   />
                 </div>
               );
@@ -132,7 +136,7 @@ const Formation = () => {
             </button>
           </div>
         </div>
-      </div>
+      </div>}
     </div>
   );
 };

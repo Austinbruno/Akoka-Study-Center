@@ -8,7 +8,7 @@ const Navbar = ( ) => {
  
 
   return (
-    <div className="flex items-center justify-between mt-[24px] ml-[80px] static">
+    <div className="flex items-center justify-between mt-[24px] ml-[80px]  static">
       <Logo />
 
       <NavLink />

@@ -1,8 +1,11 @@
+import Navbar from "@/component/Navbar"
 import React from 'react'
 
 const Library = () => {
   return (
-    <div>Library</div>
+<div className="w-[1300px] mx-auto ">
+    <Navbar />
+  </div>
   )
 }
 

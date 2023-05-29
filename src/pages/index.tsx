@@ -1,4 +1,5 @@
 import Donate from "@/component/atom/donate";
+import Footer from "@/component/atom/footer";
 import Mission from "@/component/atom/mission";
 import OtherWebsite from "@/component/atom/otherWebsite";
 import Program from "@/component/atom/program";
@@ -20,6 +21,7 @@ const index = () => {
       <ResourceLinks />
       <OtherWebsite />
       <Donate />
+      <Footer/>
     </div>
   );
 };
