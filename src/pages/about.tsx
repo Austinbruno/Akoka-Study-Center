@@ -1,16 +1,19 @@
-import Mission from "@/component/atom/mission";
-import Navbar from "@/component/Navbar";
+import Mission from "@/component/molecules/mission";
+import Navbar from "@/component/layout/navbar";
 import Image from "next/legacy/image";
 import { BsTelephone } from "react-icons/bs";
 import React from "react";
-import Donate from "@/component/atom/donate";
-import Footer from "@/component/atom/footer";
+import Donate from "@/component/molecules/donate";
+import Footer from "@/component/layout/footer";
+import PageHeading from "@/component/atom/pageHeading";
 
 const About = () => {
     const phone = "/assets/images/phone.png";
     return (
         <div className="mx-auto ">
             <Navbar />
+            <PageHeading title="What is Akoka Study Centre?" />
+
             <div className="mt-[106px]">
                 <Mission />
             </div>

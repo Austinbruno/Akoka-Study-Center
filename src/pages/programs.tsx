@@ -1,8 +1,10 @@
-import Navbar from "@/component/Navbar";
+import Navbar from "@/component/layout/navbar";
 import React from "react";
 import Image from "next/legacy/image";
-import Donate from "@/component/atom/donate";
-import Footer from "@/component/atom/footer";
+import Donate from "@/component/molecules/donate";
+import Footer from "@/component/layout/footer";
+import Donates from "@/component/molecules/donate";
+import PageHeading from "@/component/atom/pageHeading";
 
 const Programs = () => {
     const programPics = [
@@ -34,9 +36,8 @@ const Programs = () => {
     return (
         <div className="mx-auto ">
             <Navbar />
-            <h1 className="text-center justify-center font-[700] text-[34px] leading-[40px] text-[#344054] mt-[74px]">
-                Programs
-            </h1>
+            <PageHeading title="Programs" />
+
             <div className="grid grid-cols-2 gap-[15px] mt-[72px] mx-[70px]">
                 {programPics.map((program, index) => {
                     return (
@@ -62,7 +63,7 @@ const Programs = () => {
                 })}
             </div>
             <div className="mt-[100px]">
-                <Donate />
+                <Donates />
             </div>
             <Footer />
         </div>
