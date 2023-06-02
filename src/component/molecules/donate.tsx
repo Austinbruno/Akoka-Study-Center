@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-const Donate = () => {
+const Donates = () => {
   return (
     <div className="bg-[#344255] align-center h-[376px] px-[290px] pt-[136px] pb-[186px]">
       <h1 className="text-[#E4E7EC] leading-[40px] font-Inter font-[700] text-[34px]  mb-[10px] pl-[320px]">
@@ -22,4 +22,4 @@ const Donate = () => {
   );
 };
 
-export default Donate;
+export default Donates;
