@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/legacy/image'
 const Mission = () => {
-const missionImg = "/assets/images/AboutUs.png"
+const missionImg = "/assets/images/AboutUs.jpg"
   return (
     <div className="flex justify-center mb-[90px] ">
       <div>
