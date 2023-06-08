@@ -24,7 +24,7 @@ const Library = () => {
             <Navbar />
             <PageHeading title="Library" />
 
-            <div className="">
+            <div className="items-center justify-center w-[1279px] mx-auto">
                 <p className="ml-[90px] mb-[36px] font-[400] text-[18px] leading-[27px] text-[#667085]">
                     Akoka has a convenient study room stocked with books of
                     several disciplines. It provides an atmosphere of serious{" "}

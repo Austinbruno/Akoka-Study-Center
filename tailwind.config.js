@@ -13,21 +13,18 @@ module.exports = {
       sm: "350px",
       lg: "780px",
       xl: "1440px",
-
     },
     fontFamily: {
-      inter: ['Inter', 'sans-serif'],
-
+      inter: ["Inter", "sans-serif"],
+      poppins: ["Poppins, sans-serif"],
     },
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "gradient-conic":
+          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
   },
-  plugins: [
-    require('flowbite/plugin')
-  ],
-}
+  plugins: [require("flowbite/plugin")],
+};

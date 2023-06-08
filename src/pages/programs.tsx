@@ -38,7 +38,7 @@ const Programs = () => {
             <Navbar />
             <PageHeading title="Programs" />
 
-            <div className="grid grid-cols-2 gap-[15px] mt-[72px] mx-[70px]">
+            <div className="grid grid-cols-2 gap-[15px] mt-[72px] items-center justify-center w-[1279px] mx-auto">
                 {programPics.map((program, index) => {
                     return (
                         <div
