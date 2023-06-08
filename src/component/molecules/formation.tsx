@@ -11,10 +11,10 @@ const Formation = () => {
   ];
 
   return (
-    <div className="w-[1200px] mx-auto">
+    <div className="w-[1050px] mx-auto">
       <div className="mt-[64px] mb-[72px]">
-        <h1 className="text-[65px] text-justify w-[770px] font-Inter font-[700] leading-[70px] m-auto text-[#344054]">
-          Formation in Morals and Virtues for Young Men
+        <h1 className="text-[65px] text-center w-[770px] font-Inter font-[700] leading-[70px] m-auto text-[#344054]">
+          Formation in Morals and Virtues For Young Men
         </h1>
       </div>
 
@@ -27,7 +27,6 @@ const Formation = () => {
           >
             <div className="relative h-[500px] overflow-hidden rounded-lg md:h-96">
               {formationImg.map((formation, index) => {
-                console.log("formation:", formation);
                 return (
                   <div
                     key={index}
@@ -82,7 +81,6 @@ const Formation = () => {
                   aria-label="Slide 5"
                   data-carousel-slide-to="4"
                 ></button>
-               
               </div>
 
               <button

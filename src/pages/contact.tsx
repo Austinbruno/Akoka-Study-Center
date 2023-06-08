@@ -32,7 +32,7 @@ const Contact = () => {
 
             <PageHeading title="Contact Us" />
 
-            <div className="flex ml-[90px] items-center gap-[47px] ">
+            <div className="flex  items-center gap-[47px] justify-center w-[1279px] mx-auto">
                 <Map />
                 <div>
                     <h1 className="font-Inter font-[500] text-[20px] leading-[24px] mb-[18px] text-[#344054]">

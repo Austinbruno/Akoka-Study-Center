@@ -3,15 +3,15 @@ import { HiOutlineLocationMarker } from "react-icons/hi";
 import ContactInfo from "./contactInfo";
 
 interface AddressProps {
-    color: string;
+  color: string;
 }
 
 const Address = ({ color }: AddressProps) => (
-    <ContactInfo
-        icon={<HiOutlineLocationMarker size="20px"  />}
-        text="5 Abiodun Street, off Lawani St, Onitiri Yaba, Lagos"
-        color={color}
-    />
+  <ContactInfo
+    icon={<HiOutlineLocationMarker size="20px" />}
+    text="5 Abiodun Street, off Lawani St, Onitiri Yaba, Lagos"
+    color={color}
+  />
 );
 
 export default Address;
