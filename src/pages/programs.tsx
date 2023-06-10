@@ -37,25 +37,28 @@ const Programs = () => {
       <Navbar />
       <PageHeading title="Programs" />
 
-      <div className="lg:grid grid-cols-2 sm:block gap-[15px] lg:mt-[72px] sm:mt-[40px] items-center justify-center lg:w-[1279px]  lg:mx-auto sm:mx-[20px]">
+      <div className="xl:grid  md:block grid-cols-2 sm:block gap-[15px] xl:mt-[72px] sm:mt-[40px] items-center justify-center xl:w-[1279px]  xl:mx-auto md:mx-[40px] sm:mx-[20px]">
         {programPics.map((program, index) => {
           return (
             <div
               key={index}
-              className="border-[1px] border-[#667085] rounded-[10px] inline-block p-[20px] lg:h-[458px] lg:mr-[30px] sm:mb-[15px]"
+              className="border-[1px] border-[#667085] rounded-[10px] md:w-[620px]  inline-block p-[20px] xl:h-[458px] xl:w-[620px] xl:mr-[30px] md:gap-[40px]  sm:mb-[15px]"
             >
+              <div className="">
+
               <Image
                 src={program.img}
                 alt="academic"
                 width={592}
                 height={328}
                 className="mx-[24px] rouded-md"
-              />
-              <p className="text-center leading-[24px] lg:text-[20px] sm:text-[15px] font-[500] text-[#667085] mx-[10px]">
+                />
+                </div>
+              <p className="text-center leading-[24px] xl:text-[20px] md:text-[16px] sm:text-[15px] font-[500] text-[#667085] mx-[10px]">
                 {program.text}
               </p>
               <p
-                className="text-center leading-[24px] font-[400] text-[#667085] lg:text-[16px] sm:text-[14px]"
+                className="text-center leading-[24px] font-[400] text-[#667085] xl:text-[16px] sm:text-[14px]"
                 dangerouslySetInnerHTML={{ __html: program.paragrah }}
               ></p>
             </div>

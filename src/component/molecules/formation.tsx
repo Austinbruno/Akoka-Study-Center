@@ -11,8 +11,8 @@ const Formation = () => {
   ];
 
   return (
-    <div className="lg:w-[1050px] sm:w-[350px] md:w-[666px] mx-auto">
-      <h1 className="lg:text-[65px] sm:text-[34px] mt-[64px] lg:mb-[72px] sm:mb-[36px] text-center lg:w-[770px]  sm:w-[323px] font-Inter font-[700] lg:leading-[70px] sm:leading-[40px] m-auto text-[#344054]">
+    <div className="xl:w-[1050px] sm:w-[350px] md:w-[666px] mx-auto">
+      <h1 className="xl:text-[65px] sm:text-[34px] mt-[64px] xl:mb-[72px] sm:mb-[36px] text-center xl:w-[770px]  md:w-[500px]  sm:w-[323px] font-Inter font-[700] xl:leading-[70px] sm:leading-[40px] m-auto text-[#344054]">
         Formation in Morals and Virtues For Young Men
       </h1>
 
@@ -22,7 +22,7 @@ const Formation = () => {
           className=" relative mb-[90px] "
           data-carousel="slide"
         >
-          <div className="relative lg:h-[500px] sm:h-[203px]  mx-auto overflow-hidden rounded-lg md:h-96">
+          <div className="relative xl:h-[500px] sm:h-[203px]  mx-auto overflow-hidden rounded-lg md:h-96">
             {formationImg.map((formation, index) => {
               return (
                 <div
@@ -82,7 +82,7 @@ const Formation = () => {
 
             <button
               type="button"
-              className="sm:hidden absolute top-0 left-0 z-30 lg:flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+              className="sm:hidden absolute top-0 left-0 z-30 xl:flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
               data-carousel-prev
             >
               <span className="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
@@ -107,7 +107,7 @@ const Formation = () => {
 
             <button
               type="button"
-              className="sm:hidden absolute top-0 right-0 z-30 lg:flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+              className="sm:hidden absolute top-0 right-0 z-30 xl:flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
               data-carousel-next
             >
               <span className="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">

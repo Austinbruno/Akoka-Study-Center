@@ -9,10 +9,10 @@ import { useRouter } from "next/router";
 const Navbar = () => {
   const [dropDown, setDropDown] = useState(false);
   const router = useRouter();
-  const activeClass =
-  "bg-[#515C9E] p-[5px_25px] text-white rounded-[5px] ";
+  const activeClass = "bg-[#515C9E] p-[5px_25px] text-white rounded-[5px] ";
 
-const inActiveClass = " text-[#515C9E] p-[5px_25px]  text-black rounded-[5px] ";
+  const inActiveClass =
+    " text-[#515C9E] p-[5px_25px]  text-black rounded-[5px] ";
 
   const navData = [
     {
@@ -48,15 +48,15 @@ const inActiveClass = " text-[#515C9E] p-[5px_25px]  text-black rounded-[5px] ";
   };
 
   return (
-    <div className="py-[10px] sticky top-0 bg-white z-50 ">
-      <div className="xl:w-[1279px] mx-auto flex items-center justify-between">
+    <div className="sticky top-0 bg-white z-50 shadow-lg ">
+      <div className="xl:w-[1279px] p-[10px_40px] mx-auto flex items-center justify-between">
         <Logo />
 
         <NavLink />
 
         <SideLinks />
 
-        <div className="lg:hidden relative">
+        <div className="xl:hidden relative">
           <button onClick={handleDropdown}>
             <AiOutlineMenu size={40} color="#515C9E" />
           </button>
@@ -66,9 +66,13 @@ const inActiveClass = " text-[#515C9E] p-[5px_25px]  text-black rounded-[5px] ";
           >
             {navData.map((data, index) => {
               return (
-                <Link key={index} href={data.path}  className={
-                  router.pathname === data.path ? activeClass : inActiveClass
-                }>
+                <Link
+                  key={index}
+                  href={data.path}
+                  className={
+                    router.pathname === data.path ? activeClass : inActiveClass
+                  }
+                >
                   {data.name}
                 </Link>
               );
