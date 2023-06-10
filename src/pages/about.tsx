@@ -12,12 +12,12 @@ const About = () => {
   return (
     <div className="mx-auto ">
       <Navbar />
-      <div className="items-center justify-center lg:mx-auto">
+      <div className="items-center justify-center xl:mx-auto">
         <div className="mt-[106px]">
           <Mission />
         </div>
-        <div className=" mt-[-42px] lg:ml-[150px] sm:ml-[20px]">
-          <p className="mb-[13px] lg:w-[106px]  sm:text-center h-[24px] font-[500] leading-[24px] text-[20px] text-[#344054]">
+        <div className=" mt-[-42px] xl:ml-[150px] sm:ml-[20px]">
+          <p className="mb-[13px] xl:w-[106px] md:text-start sm:text-center h-[24px] font-[500] leading-[24px] text-[20px] text-[#344054]">
             Contact Us
           </p>
           <div className="flex items-center mb-[10px]">
@@ -26,7 +26,7 @@ const About = () => {
               +234(0)9122539863
             </p>
           </div>
-          <p className=" lg:w-[429px]  sm:w-[348px] font-[400]  text-[16px] leading-[24px] text-[#667085] font-poppins">
+          <p className=" xl:w-[429px]  sm:w-[348px] font-[400]  text-[16px] leading-[24px] text-[#667085] font-poppins">
             For further enquires contact the Management Team <br /> Director (
             Chima Ikenganyia Esq. ) <br /> 07067008778.
           </p>

@@ -21,7 +21,7 @@ const SideLinks = () => {
   ];
 
   return (
-    <div className="sm:hidden lg:flex">
+    <div className="sm:hidden xl:flex">
       {sideLinks.map((link, index) => (
         <Link
           key={index}
