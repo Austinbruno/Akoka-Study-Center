@@ -2,11 +2,11 @@ import React from "react";
 import Link from "next/link";
 const Donates = () => {
   return (
-    <div className="bg-[#344255] flex flex-col items-center justify-center h-[376px] px-[290px] ">
+    <div className="bg-[#344255] flex flex-col items-center justify-center h-[376px] sm:px-[20px] ">
       <h1 className="text-[#E4E7EC] leading-[40px] font-Inter font-[700] text-[34px] mb-[10px]">
         Donate
       </h1>
-      <p className="w-[860px] text-center leading-[24px] text-[#E4E7EC] font-[400] text-[18.6px] mb-[32px]">
+      <p className="lg:w-[860px] text-center leading-[24px] text-[#E4E7EC] font-[400] text-[18.6px] mb-[32px]">
         As a non-profit, Akoka study centre relies entirely on the financial
         support of donors like you to maintain its programming. Donations of any
         size are very much encouraged and greatly appreciated.
@@ -14,7 +14,7 @@ const Donates = () => {
 
       <Link
         href="/donate"
-        className="px-[60px] py-[15px] bg-[#FFF] shadow-md rounded-[5px] font-Inter font-[700] leading-[24px] text-[16px] text-[#344054]"
+        className="py-[15px] lg:w-[182px] sm:w-full bg-[#FFF] shadow-md rounded-[5px] font-Inter font-[700] text-center leading-[24px] text-[16px] text-[#344054]"
       >
         Donate
       </Link>

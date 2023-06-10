@@ -9,19 +9,19 @@ import Navbar from "@/component/layout/navbar";
 import React from "react";
 
 const index = () => {
-    return (
-        <div className=" mx-auto ">
-            <Navbar />
-            <Formation />
+  return (
+    <div className=" mx-auto ">
+      <Navbar />
+      <Formation />
 
-            <Program />
-            <Mission />
-            <ResourceLinks />
-            <OtherWebsite />
-            <Donate />
-            <Footer />
-        </div>
-    );
+      <Program />
+      <Mission />
+      <ResourceLinks />
+      <OtherWebsite />
+      <Donate />
+      <Footer />
+    </div>
+  );
 };
 
 export default index;

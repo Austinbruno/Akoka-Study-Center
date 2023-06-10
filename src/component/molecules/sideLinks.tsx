@@ -7,7 +7,8 @@ const SideLinks = () => {
   const activeClass =
     "bg-[#515C9E] text-white p-[10px_16px] rounded-[5px]  mx-[26px]";
 
-  const inActiveClass = " text-black p-[10px_12px] mr-[30px] bg-[#FFF] shadow-md rounded-[5px] ";
+  const inActiveClass =
+    " text-black p-[10px_12px] mr-[30px] bg-[#FFF] shadow-md rounded-[5px] ";
   const sideLinks = [
     {
       title: "Donate",
@@ -20,7 +21,7 @@ const SideLinks = () => {
   ];
 
   return (
-    <div className="">
+    <div className="sm:hidden lg:flex">
       {sideLinks.map((link, index) => (
         <Link
           key={index}
@@ -28,7 +29,6 @@ const SideLinks = () => {
           className={
             router.pathname === link.href ? activeClass : inActiveClass
           }
-         
         >
           {link.title}
         </Link>
