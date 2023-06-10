@@ -10,54 +10,54 @@ import Footer from "@/component/layout/footer";
 import Donates from "@/component/molecules/donate";
 
 type BalabluType = {
-    icon: ReactNode;
+  icon: ReactNode;
 };
 
 const Contact = () => {
-    const balablu: BalabluType[] = [
-        {
-            icon: <Address color="text-[#667085]" />,
-        },
-        {
-            icon: <PhoneNumber color="text-[#667085]" />,
-        },
-        {
-            icon: <Email color="text-[#667085]" />,
-        },
-    ];
+  const balablu: BalabluType[] = [
+    {
+      icon: <Address color="text-[#667085]" />,
+    },
+    {
+      icon: <PhoneNumber color="text-[#667085]" />,
+    },
+    {
+      icon: <Email color="text-[#667085]" />,
+    },
+  ];
 
-    return (
-        <div className="mx-auto ">
-            <Navbar />
+  return (
+    <div className="mx-auto ">
+      <Navbar />
 
-            <PageHeading title="Contact Us" />
+      <PageHeading title="Contact Us" />
 
-            <div className="flex  items-center gap-[47px] justify-center w-[1279px] mx-auto">
-                <Map />
-                <div>
-                    <h1 className="font-Inter font-[500] text-[20px] leading-[24px] mb-[18px] text-[#344054]">
-                        Akoka Study Centre
-                    </h1>
+      <div className="lg:flex sm:block items-center gap-[47px] justify-center  lg:mx-auto sm:mx-[20px]">
+        <Map />
+        <div>
+          <h1 className="font-Inter font-[500] text-[20px] leading-[24px]  sm:m-[12px] mb-[18px] text-[#344054]">
+            Akoka Study Centre
+          </h1>
 
-                    <div>
-                        {balablu.map((bulaba, index) => {
-                            return (
-                                <div key={index} className="mb-[10px]">
-                                    {bulaba.icon}
-                                </div>
-                            );
-                        })}
-                    </div>
-
-                    <QuickLinks />
+          <div>
+            {balablu.map((bulaba, index) => {
+              return (
+                <div key={index} className="mb-[10px]">
+                  {bulaba.icon}
                 </div>
-            </div>
-            <div className="mt-[100px]">
-                <Donates />
-            </div>
-            <Footer />
+              );
+            })}
+          </div>
+
+          <QuickLinks />
         </div>
-    );
+      </div>
+      <div className="mt-[100px]">
+        <Donates />
+      </div>
+      <Footer />
+    </div>
+  );
 };
 
 export default Contact;

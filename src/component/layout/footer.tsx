@@ -32,21 +32,36 @@ const Footer = () => {
     },
   ];
   return (
-    <div className="w-[1300px] mx-auto">
-      <div className="flex items-center justify-center p-[50px_80px]">
-        <div className="mr-[34px]">
-          <Image src={logo} alt="logo" width={120} height={120} />
+    <div className="lg:w-[1440px] mx-auto sm:p-[30px_22px] ">
+      <div className="lg:flex items-start justify-center lg:p-[50px_80px]">
+        <div className="sm:flex items-center justify-between">
+          <div className="lg:mr-[34px]">
+            <Image src={logo} alt="logo" width={120} height={120} />
+          </div>
+
+          <div className="lg:hidden">
+            {footerNumbers.map((num, index) => {
+              return (
+                <div key={index} className="flex items-center m-[10px_0px]">
+                  <div className="w-[20px] text-[#475467]">{num.icon}</div>
+                  <p className="font-[500] text-[16px] text-[#475467] leading-[30px] ">
+                    {num.text}
+                  </p>
+                </div>
+              );
+            })}
+          </div>
         </div>
 
-        <div className="grid grid-flow-col gap-[54px]">
-          <div className="grid place-self-center ">
-            <div className="mb-[30px]">
+        <div className="lg:grid grid-flow-col gap-[54px]">
+          <div className="lg:flex flex-col items-start sm:mt-[10px]">
+            <div className="lg:mb-[30px] sm:mb-[8px]">
               <Email color="text-[#475467]" />
             </div>
             <Address color="text-[#475467]" />
           </div>
 
-          <div className="flex flex-col ">
+          <div className="lg:flex flex-col sm:hidden">
             {footerNumbers.map((num, index) => {
               return (
                 <div key={index} className="flex items-center m-[10px_0px]">
@@ -63,13 +78,13 @@ const Footer = () => {
             <p className="mb-[10px] font-[500] text-[16px] leading-[24px] text-[#475467]">
               Join the mailing list for activity updates.
             </p>
-            <div>
+            <div className="sm:flex sm:flex-col lg:block">
               <input
                 type="text"
                 placeholder="Email Address"
-                className="border-[solid] border-[#667085] border-[1px]font-[400] font-poppins text-[14px] leading-[24px] text-[#667085] rounded-[8px] mr-[16px]"
+                className="border-[solid] border-[#667085] border-[1px] font-[400] font-poppins text-[14px] leading-[24px] text-[#667085] rounded-[8px] lg:mr-[16px]"
               />
-              <button className=" p-[10px_24px]  bg-[#515C9E] rounded-[10px] font-Inter font-[500] leading-[24px] text-[16px] text-[#fff]">
+              <button className="p-[10px_24px] sm:mt-[8px] sm:mb-[30px] bg-[#515C9E] rounded-[10px] font-Inter font-[500] leading-[24px] text-[16px] text-[#fff]">
                 Subscribe
               </button>
             </div>
@@ -77,9 +92,9 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="h-[2px] w-[90%] bg-[#8C94A6] mx-auto" />
+      <div className="h-[2px] lg:w-[90%] bg-[#8C94A6] mx-auto" />
 
-      <p className="ml-[94px] text-[#98A2B3] text-[16px] leading-[24px] font-[500] my-[50px]">
+      <p className="lg:ml-[94px] text-[#98A2B3] text-[16px] leading-[24px] font-[500] lg:my-[50px] sm:mt-[15px]">
         Copyright &copy; 2023 Akoka study centre
       </p>
     </div>

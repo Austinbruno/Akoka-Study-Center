@@ -29,7 +29,7 @@ const NavLink = () => {
   ];
 
   return (
-    <div className=" text-[16px] pr-[56px] font-inter font-[500]">
+    <div className="sm:hidden lg:flex text-[16px] pr-[56px] font-inter font-[500]">
       {navLinks.map((link, index) => (
         <Link
           key={index}

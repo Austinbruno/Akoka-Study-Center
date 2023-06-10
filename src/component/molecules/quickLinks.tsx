@@ -24,8 +24,8 @@ const QuickLinks = () => {
         <div>
             {contactLinks.map((item, index) => (
                 <div key={index} className="mb-[10px]">
-                    <h2  className="inline-block text-[#667085] pr-[8px]" >{item.title }</h2>
-                    <Link className="text-[#7B9CE2]" href={item.linkTo}target="_blank">
+                    <h2  className=" font-poppins font-[400] sm:text-[14px] inline-block text-[#667085] pr-[8px]" >{item.title }</h2>
+                    <Link className="text-[#7B9CE2] sm:text-[12px]" href={item.linkTo}target="_blank">
                         {item.linkTo}
                     </Link>
                 </div>
