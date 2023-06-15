@@ -25,7 +25,7 @@ const HomeSections = (props: HomeSectionsProps) => {
           return (
             <div
               key={index}
-              className="flex flex-col items-center justify-center sm:mb-[20px] border-[1px] xl:w-[386px] md:h-[220px] mx-auto border-[#667085] rounded-[10px] p-[20px]"
+              className="flex flex-col items-center justify-center sm:mb-[20px] border-[1px] xl:w-[386px] xl:h-[280px] md:h-[220px] mx-auto border-[#667085] rounded-[10px] p-[20px]"
             >
               <Image src={data.img} alt="academic" width={350} height={215} />
               <Link
