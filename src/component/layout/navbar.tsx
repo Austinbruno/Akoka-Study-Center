@@ -3,6 +3,7 @@ import Logo from "../atom/logo";
 import NavLink from "../molecules/navLinks";
 import SideLinks from "../molecules/sideLinks";
 import { AiOutlineMenu } from "react-icons/ai";
+import { MdCancelPresentation } from "react-icons/md";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
@@ -58,7 +59,12 @@ const Navbar = () => {
 
         <div className="xl:hidden relative">
           <button onClick={handleDropdown}>
-            <AiOutlineMenu size={40} color="#515C9E" />
+          {dropDown ? (
+              <MdCancelPresentation size={50} color="#515C9E"  />
+            ) : (
+              <AiOutlineMenu size={40} color="#515C9E" />
+            )}
+
           </button>
 
           <div

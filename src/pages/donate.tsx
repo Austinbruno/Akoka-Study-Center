@@ -12,6 +12,9 @@ const Donate = () => {
     "Phone Number",
     "Amount",
   ];
+  const type = ["text", "email", "tel", "number"];
+  const name = ["user_name", "user_email", "user_tel", "amount"];
+
   return (
     <div className="mx-auto ">
       <Navbar />
@@ -19,13 +22,11 @@ const Donate = () => {
       <PageHeading title="Donate" />
 
       <NavbarSidelinkForm
-        text={
-          " Akoka Study Centre is one of the hundreds of centers around the world inspired by the teachings of St.josemaria Escriva, the Founder of opus Dei - an institution of the Catholic Church that Promotes the universal call to holiness by teaching that professional work and study can be sanctified by doing it well, with love and for the glory. "
-        }
+        text={" Akoka Study Centre is one of the hundreds of centers around the world inspired by the teachings of St.josemaria Escriva, the Founder of opus Dei - an institution of the Catholic Church that Promotes the universal call to holiness by teaching that professional work and study can be sanctified by doing it well, with love and for the glory. "}
         placeholders={placeholder}
         header={"Help  support us to do more"}
         button={"Donate"}
-      />
+        type={type} name={name} templateId="template_xjjithj"      />
       <div className="mt-[100px]">
         <Donates />
       </div>
