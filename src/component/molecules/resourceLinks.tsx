@@ -6,7 +6,7 @@ const ResourceLinks = () => {
     {
       img: "/assets/images/BookWebsite.png",
       text: "Book Websites",
-      href: ""
+      href: "https://605a328a4e1f5.site123.me/"
     },
     {
       img: "/assets/images/Theologyclass.png",

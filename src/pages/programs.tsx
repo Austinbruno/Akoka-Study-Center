@@ -12,7 +12,7 @@ const Programs = () => {
       img: "/assets/images/Academic.png",
       text: "Academic",
       paragrah: `
-      <p>(Library Services, Akoka Book Club(<a href="https://605a328a4e1f5.site123.me" style='color:#7B9CE2'> https://605a328a4e1f5.site123.me/</a> )Study Weekend, First Class Workshop)</p>`,
+      <p>(Library Services, Akoka Book Club, Study Weekend, First Class Workshop)</p>`,
     },
     {
       img: "/assets/images/Professional.png",

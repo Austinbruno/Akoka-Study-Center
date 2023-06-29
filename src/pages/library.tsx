@@ -22,7 +22,7 @@ const Library = () => {
       <NavbarSidelinkForm
         text={"Akoka has a convenient study room stocked with books of several disciplines. It provides an atmosphere of serious work. If you want to get stuff done, come to Akoka library."}
         placeholders={placeholder}
-        button={"Submit"} header={""} type={type} name={name} templateId="template_jdgnikw"      />
+        button={"Submit"} header={""} type={type} name={name} templateId="template_jdgnikw" account_number={""} account_name={""} bank={""} AirtableTableName={"Library Form"}      />
       <div className="mt-[100px]">
         <Donates />
       </div>
