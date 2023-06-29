@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "akoka-study-center",
+  "private_key_id": "d38e1c3415b23709d56be24f7bcb91a10804edb1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCTcJqWhKYRAd+/\nUK0bcJEnfWsWud5O++vhBr2JFEPfHOxLvID0XFYf0HfGEzBA3tYNjUMyxMwJ+ngc\ngd8mFKFNao66qxUlieQ0YAJUrnfB4xTxC0ObTY2Jighx+N4VGQsj87Bv/+J4S1cm\nHC2X+ufqjtEjbDUNDc7sNz/IpMVEshRdPJTcE9UbtGT9Z0gUPhcuUI7aCkZFwpOV\n3s7W8VKUO8dKkEElbsUXc0U7+QG3lfGudKWahYIT3lekWVVDoWbGQYU6EqnKoB1I\nH+5Xdf+Q9HjxpUWvzyMyzaDXHxbBfU9ZVjfr6H2AoxtJUx6rfVh8HGT2Vx6w6EcB\nn/dI/8URAgMBAAECggEAAnLTaGZDzULBFN/pvgvKp1Ocgow76kciAdLPNT50SZlk\n/bV/1T8O0ZiwUoZpTdx9hMxYpjhRNKW3lq6b9nmPe7YGMIiskVrmwq1pAH/EvqAv\nLfkcSnEZZYQ4s27Y/lP0BMj0YEnJOKr0o64CXlSlAxbT15EhmOnGqtLYkPQWkBdY\nDdDVqh80o33bQ5/EldEue1zizwbwcRc7l3gKXvpBeaJYM040UoHZjYOfzU8sQqga\nuxelzHV/czZ/pKAfcPENEvfsAwhYrkq12JjhvXsSSVqcThIezba5KCxxnl6SHAI6\nlI01a8WCqSiQOASWRTnKCqG0W3uE4dqpOz7dYw9feQKBgQDFfGiVNu49QhcXScrl\nhuXQkpEGot4SA2Jtsg4hq2Y3Xbj/9+dEblanPZvQJCjEKwAyJXeXoqUWnmDuJ4Pp\nz7PwvAqhWjDBdUVTF0jq/uX/A4AoObGjQYjDshA5aGEfJkO7mjmsme9EIH4CClh0\nj9pV496S+p2OIGEajYMyJOl7OQKBgQC/ICBrB7PG57LxF03kZi2LMSO4zrWL5gNu\nYFRQ2D+GnROmYx41+B6Zqe8juZZNhmI0Rahu0lHfZhhziw9xYHcstSgMBLoEpOHb\nnMdKw/PCAOFFD/Be/jgOM8Wn7MWOzN0PBTmohUunHx1WB4tAsDf0aY14yyctKHco\ntk1ehH4gmQKBgQCsqLJ/EsGECU5K7BdaSXCPxDTLioWBVjguE+hLA6Ggcm6WTFWD\n/LwCB9k8RwDlUXsgXKWMi4Sum9W/Igkw2IlHxf+9Ri8uVKtBlDAKVMUdCiB4CskG\nJPu/rOSGbH3NUBUT5ijagNMxyv6gJg9kCYkoYstr0XUCl8iOAH9dzevb8QKBgG0i\n/EAByu+muPCgnRLyIcmcysgqCVMUihsKGLt9cHD+2wylBshMobSfa/XbcO9d8E/n\nAvIdWTEXDJlV7ACS1BqMa4zJWityt6H/GXIhCN1cQUZ9foXP5tR9Tb3BH2KWqxh7\npFwNmZCZ3NeWQTc0KQ+BAo7aesl3lOuDhhSV1avpAoGAUgeW+BCHA6JGN+lxVWRh\n1F6cVtOvDWlIE6N3/aMa7Y7FdGnb7GEqR0boxx5eyCndWdamg8E5ZA+UKGhCb4fA\n7s71WTOOQmKw3foBxAbCGOz1lBZgDH0T/6RjN1JD9P8GmWSMfQJEpXbLJ9dWC4Ep\nU2LE/vSFoDL/YSSpsiOk8EQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "unyimebruno@akoka-study-center.iam.gserviceaccount.com",
+  "client_id": "115003160751085596598",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/unyimebruno%40akoka-study-center.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

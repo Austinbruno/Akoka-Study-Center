@@ -10,6 +10,11 @@ const Program = () => {
       text: "Moral Formation",
       href: "",
     },
+    {
+      img: "/assets/images/cultural.png",
+      text: "Cultural Formation",
+      href: "",
+    },
   ];
 
   return <HomeSections title="Programs" sectionData={programPics} />;

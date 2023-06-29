@@ -36,7 +36,7 @@ const Formation = () => {
                     alt="..."
                     width={1200}
                     height={400}
-                    // objectFit="cover"
+                 
                   />
                 </div>
               );
